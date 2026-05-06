@@ -7,7 +7,7 @@
         "visualization stats"
     ],
     "description": "Total number of labeling actions and annotated unique images in a time interval",
-    "docker_image": "supervisely/collaboration:0.0.1",
+    "docker_image": "supervisely/collaboration:6.73.564",
     "main_script": "src/labeling_events_stats.py",
     "modal_template": "src/modal.html",
     "modal_template_state": {},
