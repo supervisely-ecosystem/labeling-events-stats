@@ -1,21 +1,21 @@
 {
-    "name": "Labeling Events Stats",
-    "type": "app",
-    "categories": [
-        "collaboration",
-        "statistics",
-        "visualization stats"
-    ],
-    "description": "Total number of labeling actions and annotated unique images in a time interval",
-    "docker_image": "supervisely/collaboration:0.0.1",
-    "main_script": "src/labeling_events_stats.py",
-    "modal_template": "src/modal.html",
-    "modal_template_state": {},
-    "gui_template": "src/gui.html",
-    "task_location": "application_sessions",
-    "isolate": true,
-    "icon": "https://img.icons8.com/color/96/000000/graph.png",
-    "icon_background": "#FFFFFF",
-    "instance_version": "6.4.22",
-    "poster": "https://user-images.githubusercontent.com/106374579/182829996-7aa78afd-8e49-4fec-bed3-7e68401d8f02.png"
+  "name": "Labeling Events Stats",
+  "type": "app",
+  "categories": [
+    "collaboration",
+    "statistics",
+    "visualization stats"
+  ],
+  "description": "Total number of labeling actions and annotated unique images in a time interval",
+  "docker_image": "supervisely/base-py-sdk-hardened:6.73.564",
+  "main_script": "src/labeling_events_stats.py",
+  "modal_template": "src/modal.html",
+  "modal_template_state": {},
+  "gui_template": "src/gui.html",
+  "task_location": "application_sessions",
+  "isolate": true,
+  "icon": "https://img.icons8.com/color/96/000000/graph.png",
+  "icon_background": "#FFFFFF",
+  "instance_version": "6.15.60",
+  "poster": "https://user-images.githubusercontent.com/106374579/182829996-7aa78afd-8e49-4fec-bed3-7e68401d8f02.png"
 }

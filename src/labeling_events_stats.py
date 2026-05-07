@@ -9,8 +9,8 @@ import pprint
 import math
 from collections import defaultdict
 
-import supervisely_lib as sly
-from supervisely_lib.api.team_api import ActivityAction as aa
+import supervisely as sly
+from supervisely.api.team_api import ActivityAction as aa
 
 my_app = sly.AppService()
 
